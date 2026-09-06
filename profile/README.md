@@ -2,7 +2,7 @@
 
 [![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat\&logo=archlinux\&logoColor=white)](https://archlinux.org/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![GitHub Organization](https://img.shields.io/badge/GitHub-MuliOS-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/MuliOS)
+[![GitHub Organization](https://img.shields.io/badge/GitHub-MuliOS-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/MuliOS-dev)
 
 ### A Linux distribution built around choice, performance, and simplicity.
 

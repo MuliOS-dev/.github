@@ -1,100 +1,103 @@
 # MuliOS
-[![UPDATE](https://img.shields.io/badge/UPDATE-50C878?style=flat&logo=github&logoColor=white)](https://github.com/MuliOS-dev/update)
-[![Arch Linux](https://img.shields.io/badge/Arch%20Linux%20Builds-1793D1?style=flat&logo=archlinux&logoColor=white)](https://github.com/MuliOS-dev/MuliOS-Arch)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu%20Builds-E95420?style=flat&logo=ubuntu&logoColor=white)](https://github.com/MuliOS-dev/MuliOS-Ubuntu)
+
+[![UPDATE](https://img.shields.io/badge/UPDATE-50C878?style=flat\&logo=github\&logoColor=white)](https://github.com/MuliOS-dev/update)
+[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-Builds-1793D1?style=flat\&logo=archlinux\&logoColor=white)](https://github.com/MuliOS-dev/MuliOS-Arch)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu%20Builds-E95420?style=flat\&logo=ubuntu\&logoColor=white)](https://github.com/MuliOS-dev/MuliOS-Ubuntu)
 [![GitHub Organization](https://img.shields.io/badge/GitHub-MuliOS-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/MuliOS-dev)
-[![Support](https://img.shields.io/badge/Support-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/3FzUdGbWMf)
+[![Support](https://img.shields.io/badge/Support-5865F2?style=flat\&logo=discord\&logoColor=white)](https://discord.gg/3FzUdGbWMf)
 
-### Linux distribution built around choice, performance, and personalization.
+### A Linux distribution built around choice, performance, and personalization.
 
-MuliOS is an independent Linux distribution project focused on creating a flexible operating system that adapts to what you actually use your computer for.
+MuliOS is an independent Linux distribution project focused on creating an operating system that adapts to how you use your computer.
 
-MuliOS has been made with the idea to have an operating system be all you need in one place. people change, your OS too.
+MuliOS is built around a simple idea:
+
+> **People change, your OS too.**
 
 ---
 
 ## What is MuliOS?
 
-MuliOS is built around one simple idea:
+MuliOS is designed around **choice, performance, customization, simplicity, and modularity**.
 
-> **Your operating system should adapt to you — not the other way around.**
-
-MuliOS uses configurable profiles to provide different environments depending on how you use your computer.
-Profiles work by modifying the kernel for various uses, and installing useful programs for that particular need. it also adapts and optimises the system for said use.
+The system provides different profiles that can adapt system configuration, packages, tools, and performance settings to different workloads.
 
 ### Profiles
 
-* **Game Focused** — Gaming-focused packages and optimizations
+* **Game Focused** — Gaming-focused software and optimizations
 * **Code** — Development tools and programming environments
 * **AI** — Tools for AI and machine-learning workloads
 * **Study** — Tools for studying and everyday school work
 * **Privacy** — Privacy-focused configuration
 * **Casual** — A balanced everyday setup
-* **More** — Additional and custom configurations
+* **More** — Additional profiles and configurations as the project evolves
+
+Profiles are designed to remain broad and practical rather than creating a separate operating system for every use case.
 
 ---
 
 ## Projects
 
-The MuliOS organisation contains the components that make up the operating system.
+The MuliOS organization contains the components that make up the project.
 
-| Project                  | Description                                      |
-| ------------------------ | ------------------------------------------------ |
-| **MuliOS-Ubuntu**        | Ubuntu-Based MuliOS Operating System             |
-| **MuliOS-Arch**          | Arch Linux-based MuliOS Operating System         |
-| **MuliOS Installer**     | Graphical installation and setup system          |
-| **MuliOS Profiles**      | Profile-specific configurations and packages     |
-| **MuliOS Packages**      | Packages and system components                   |
-| **MuliOS Tools**         | Utilities used throughout the project            |
-| **MuliOS Documentation** | Documentation, guides and technical information  |
-| **MUpdate & OTA**        | Custom Update Manager and OTA Services           |
+| Project              | Description                                   |
+| -------------------- | --------------------------------------------- |
+| **MuliOS-Arch**      | Arch Linux-based MuliOS distribution          |
+| **MuliOS-Ubuntu**    | Ubuntu-based MuliOS project                   |
+| **MuliOS Installer** | Graphical installer and system setup          |
+| **MuliOS Profiles**  | Profile-specific configurations and packages  |
+| **MuliOS Tools**     | Utilities used throughout MuliOS              |
+| **MUpdate**          | MuliOS system update and synchronization tool |
+| **Documentation**    | Documentation and technical information       |
 
 ---
 
 ## Architecture
 
-MuliOS is designed to be modular and configurable.
+MuliOS is designed to keep the operating system modular and configurable.
 
 ```text
                          MuliOS
                            |
               +------------+------------+
               |                         |
-       System Components          User Environment
+        System Components          User Environment
               |                         |
        +------+------+------+      +----+----+
        |      |      |      |      |         |
-    Kernel Packages Config Tools Profiles   UI
+    Kernel Packages Config Tools Profiles    UI
                                     |
               +---------------------+---------------------+
               |          |          |          |          |
-           Gaming     Coding       AI       School    Privacy
+           Gaming      Code        AI       Study      Privacy
                                                    |
                                                  Casual
 ```
 
-The goal is to keep components independent wherever possible, making MuliOS easier to maintain, modify and expand.
+The goal is to keep components independent wherever possible, making MuliOS easier to maintain, modify, and expand.
 
 ---
 
 ## Technology
 
-MuliOS uses a combination of open-source projects, including:
+The current MuliOS ecosystem uses open-source technologies including:
 
 * Linux
 * Arch Linux
-* XUbuntu
 * Python
 * PySide6
 * systemd
-* Calamares
 * Bash
 * Git
 * GitHub
-* 7-zip
-And more!
+* Archiso
+* KDE Plasma
+* PipeWire
+* NetworkManager
 
-The underlying projects may evolve as the project develops.
+MuliOS also includes custom components such as the MuliOS installer, MUpdate, system utilities, desktop configuration, and profile infrastructure.
+
+The technology stack may evolve as development continues.
 
 ---
 
@@ -109,51 +112,70 @@ Create bootable USB
       |
 Boot the computer
       |
-Launch the installer
+Launch the MuliOS installer
       |
-Choose your profile
+Choose your configuration
       |
 Install MuliOS
       |
 Configure your system
 ```
 
-See the relevant repository for current installation instructions.
+For current installation instructions and releases, see the **MuliOS-Arch** repository.
 
 ---
 
-## Updates & OTA
+## Updates
 
-MuliOS is designed with an update system for managing system components, configurations and packages.
-MuliOS will use **OTA Services** or MOTA (MuliOS Over The Air) To update main components of the operating system (E.g: UI, MUpdate, generic kernel, Arch Version...) using Split Packages and 7zip to deliver system updates.
-Profile Updates will work using MUpdate, which will gather latest profile packages from GitHub (or mirrors later on) and keep the generic kernel as a fall back option.
+MuliOS uses **MUpdate** to synchronize supported MuliOS system components with the official MuliOS repository.
 
-We strongly recommend backing up all personal data alongside the built-in backup option using external drives and cloud services if needed.
+MUpdate provides features including:
 
-The update infrastructure is actively being developed and upgraded to be better and more stable. for more reliability, it is possible to manually update the OS using the steps in our <a href="https://github.com/MuliOS-dev/update" target="_blank">
-  <button>update</button>
-</a> repository.
+* System file synchronization
+* GitHub blob verification
+* Automatic backups of replaced files
+* Safe update handling
+* Force update mode
+* Dry-run support
+* Self-updating
+* MuliOS desktop/theme synchronization
+
+MUpdate currently focuses on the Arch-based MuliOS system.
+
+For more information, see the [MUpdate repository](https://github.com/MuliOS-dev/update).
+
+> Always maintain a backup of important personal data before performing major system changes or updates.
 
 ---
 
 ## Development Status
 
-> **MuliOS Arch is currently under active development.**
-> **MuliOS Ubuntu is currently paused.**
+### MuliOS Arch
 
- 
-Some components may change significantly between releases.
+**Active development**
+
+The Arch edition is currently the primary actively developed MuliOS distribution.
+
+### MuliOS Ubuntu
+
+**Paused**
+
+The Ubuntu edition remains part of the project but is not currently the primary development target.
+
+MuliOS is continuously evolving, and components may change significantly between releases.
 
 Current development areas include:
 
 * Core operating system
 * Installer
-* Profile systemzzz
-* Package management
-* Update infrastructure
+* Profile system
+* Package configuration
+* MUpdate
+* Desktop integration
 * System configuration
-* Arch-based edition
+* Boot and UEFI reliability
 * Documentation
+* ISO build infrastructure
 
 ---
 
@@ -166,10 +188,11 @@ You can contribute by:
 * Reporting bugs
 * Suggesting features
 * Contributing code
-* Creating or improving packages
+* Improving packages and configurations
 * Improving documentation
 * Testing development builds
 * Improving the user interface
+* Helping test hardware compatibility
 
 Before contributing, check the contribution guidelines of the relevant repository.
 
@@ -201,7 +224,7 @@ MuliOS is built around open-source software and transparent development.
 
 ## Organisation
 
-All MuliOS projects are developed under the MuliOS GitHub organisation.
+MuliOS is developed under the [MuliOS GitHub organization](https://github.com/MuliOS-dev).
 
 Explore the repositories to learn more about the operating system, contribute to development, or experiment with the latest builds.
 
@@ -209,24 +232,27 @@ Explore the repositories to learn more about the operating system, contribute to
 
 ## Project Status
 
-| Component          | Status         |
-| ------------------ | -------------- |
-| Core OS            | In development |
-| Installer          | In development |
-| Profiles           | In development |
-| Package system     | In development |
-| Update system      | In development |
-| Documentation      | In development |
-| Arch-based edition | In development |
+| Component           | Status             |
+| ------------------- | ------------------ |
+| Core OS             | Active development |
+| Arch-based edition  | Active development |
+| Installer           | Active development |
+| Profiles            | Active development |
+| MUpdate             | Active development |
+| Desktop integration | Active development |
+| ISO build system    | Active development |
+| Documentation       | Active development |
+| Ubuntu edition      | Paused             |
 
 ---
 
 ## License
 
-Individual MuliOS repositories may use different licenses depending on their purpose and included components.
-Currently, MuliOS uses the GPL-3.0 License.
+MuliOS uses the **GNU General Public License v3.0 (GPL-3.0)**.
 
-Check the `LICENSE` file of each repository for the applicable license.
+Individual repositories may contain additional licensing information for bundled or third-party components.
+
+See the `LICENSE` file of the relevant repository for the applicable license.
 
 ---
 
